@@ -1,0 +1,120 @@
+body {
+    font-family: sans-serif;
+    margin: 100px;
+    padding: 100px;
+    background-color: #fbf6f7;
+}
+
+header {
+    background-color: #ffe6e6;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.profile {
+    text-align: center;
+}
+
+.profile img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.profile h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.profile p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.social {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.social li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social a {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #c0e8f9;
+    border-radius: 70%;
+    color: #000;
+    transition: background-color 0.3s ease;
+}
+
+.social a:hover {
+    background-color: #fca0bd;
+}
+
+.favorite, .experience {
+    margin-top: 50px;
+}
+
+.skills h2, .experience h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+.skills ul, .experience ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.skills li, .experience li {
+    margin-bottom: 5px;
+}
+
+footer {
+    background-color: #ffe6e6;
+    padding
+}
+
+  button {
+    background-color: #F44336; /* Đỏ */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 80px; /* Bo tròn toàn bộ */
+    cursor: pointer;
+  }
+  .image-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.image-container img {
+    width: 50%;
+    height: auto;
+    border-radius: 40%   
+}
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Xuống dòng khi cần thiết */
+    width: 800px; /* Chiều rộng container */
+    margin: 0 auto; /* Canh giữa */
+}
+  
